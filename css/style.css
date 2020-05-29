@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "roboto";
+    src: url(/fonts/Roboto/Roboto-Italic.ttf);
+    font-size: 18px;
+}
+@font-face {
+    font-family: "palyfair";
+    src: url(/fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf);
+    font-size: 18px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-image: url(/img/background3.jpg);
+    }
+h1 {
+    font-family: 'bebas neue', 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+h2{
+    font-family: 'palyfair', 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: justify;
+}
+li {
+    font-family: 'roboto', 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+caption{
+    font-weight: 900;
+    color: red;
+}
+img{
+    width: 350px;
+}
+#tabla{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+ }
+ tbody tr:nth-child(odd){
+     background-color: lightblue;
+ }
+ tbody tr:nth-child(even){
+     background-color: lightcoral;
+ }
