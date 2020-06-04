@@ -8,9 +8,18 @@
     src: url(/fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf);
     font-size: 18px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.leiras {
+    width:33%;
+    height:500px;
+    background-color:#efefef;
+}
+.menu {
+    position: relative;
+    
+}
 body {
-    background-image: url(/img/background3.jpg);
+    background-color: lightgray;
     }
 h1 {
     font-family: 'bebas neue', 'Times New Roman', Times, serif;
@@ -18,10 +27,9 @@ h1 {
     font-weight: 500;
     text-align: center;
 }
-h2{
-    font-family: 'palyfair', 'Times New Roman', Times, serif;
-    font-size: 22px;
-    text-align: justify;
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;    
 }
 li {
     font-family: 'roboto', 'Times New Roman', Times, serif;
@@ -31,9 +39,7 @@ caption{
     font-weight: 900;
     color: red;
 }
-img{
-    width: 350px;
-}
+
 #tabla{
     width: 20%;
     margin-left: 40%;
@@ -41,8 +47,8 @@ img{
     text-align: center;
  }
  tbody tr:nth-child(odd){
-     background-color: lightblue;
- }
+     background-color: lightcyan;}
+
  tbody tr:nth-child(even){
-     background-color: lightcoral;
+     background-color: lemonchiffon 
  }
